@@ -122,7 +122,7 @@ public class GridMap {
     }
 
     public void toCSV() {
-        Csv.Writer writer = new Csv.Writer("hello.csv").delimiter(',');
+        Csv.Writer writer = new Csv.Writer("resulting_map.csv").delimiter(',');
 
         // Headers
         for (String key : keys) {

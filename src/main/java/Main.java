@@ -15,6 +15,5 @@ public class Main {
         }
         map.toCSV();
         //System.out.println(map);
-
     }
 }
