@@ -1,5 +1,4 @@
 
-
 public class Main {
     public static void main(String[] args) {
         //for (Criminal cr : Criminal.getCrilinals()) {
@@ -10,7 +9,7 @@ public class Main {
             //System.out.println(am);
             map.push(am);
         }
-        for (Amenity am : Amenity.getAmenities("data/shops.csv")) {
+        for (Amenity am : Amenity.getAmenities("data/amenities.csv")) {
             System.out.println(am);
             map.push(am);
         }
